@@ -12,16 +12,16 @@ with open('README.rst', 'rb') as f_readme:
 packages = find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"])
 
 setup(
-    name='pysoccer',
+    name='soccerdata',
     version=soccer.__version__,
     keywords=['soccer', 'football', 'football-data'],
-    description='Soccer data for programmers.',
+    description='Soccer data for python programmers.',
     long_description=readme,
-    author='RayYu03',
-    author_email='shiliuhuasheng@gmail.com',
+    author='haoxiaopang',
+    author_email='yanshia@163.com',
     license='MIT',
-    url='https://github.com/RayYu03/pysoccer',
-    install_requires=['requests','click'],
+    url='https://github.com/haoxiaopang/soccerdata',
+    install_requires=['requests'],
     packages=packages,
     classifiers=[
         'Development Status :: 3 - Alpha',

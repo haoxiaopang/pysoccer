@@ -1,3 +1,3 @@
 config = {
-    'key': '1e20a74731d24653b14db5a6f73a7745'
+    'key': 'fcd1c231308f455dbc63e76bd0254453'
 }
